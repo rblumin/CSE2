@@ -30,7 +30,7 @@ public class Month{ //class
             return; //terminates the program
         }
         
-        int days = 0;
+        int days = 0; //creates days variable
         
         
         switch (month) { //applies the appropriate case based on the users input
@@ -48,11 +48,11 @@ public class Month{ //class
 
                      int year = myScanner.nextInt(); //accepts input for the month
                      
-                     if (((year % 4 == 0) && !(year % 100 == 0)) || (year % 400 == 0)) {
-                        days = 29;
+                     if (((year % 4 == 0) && !(year % 100 == 0)) || (year % 400 == 0)) { //checks to see if its a leap year
+                        days = 29; //assigns 29 to days for leap year
                      }
-                     else{
-                        days = 28;
+                     else{ //else statement
+                        days = 28; //assigns 28 to days for non leap years
                      }
                      break; //terminates the switch
             case 3:  days = 31; //assigns appropriate days for the month
@@ -77,7 +77,7 @@ public class Month{ //class
                      break; //terminates the switch
         }
 
-            System.out.println("The month has " + days + " days");
+            System.out.println("The month has " + days + " days"); //prints output
 
     }  //end of main method   
 } //end of class
