@@ -1,8 +1,8 @@
 //Roger Blumin
-//September 20, 2014
+//September 24, 2014
 //CSE 2
 //lab05
-//This program 
+//This program allows the user to choose a game to play and then provides them with a random number if they choose to play roullete since the other two games are not implemented
 
 
 import java.util.Scanner; //import scanner class
