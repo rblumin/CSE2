@@ -23,14 +23,42 @@ public class HelloWorld{
     System.out.println("########################");
     System.out.println("test");
     
-    int x=10;
-    int y =5;
-    double z = 3.2;
-    //int z = x+++y;
-    //int z= (int) (Math.random() * 3);
-    System.out.println(x);
-    System.out.println(y);
-    System.out.println(z);
+  /*  int z=1;
+    for (int i=1;i<=4;i++){
+      for (int j=1; j<=i; j++){
+        for (int k=1; k<=j; k++){
+          System.out.print(z);
+
+        }
+        System.out.println("");
+      }
+      z*=2;
+    }*/
+    
+    
+    for (int i=2; i<=4; i++){
+      for (int j=1; j<=i; j++){
+        for(int k=1; k<=j; k++){
+          System.out.print("b");
+        }
+          System.out.println("");
+        
+      }
+      
+    }
+    
+    
+    int a = 31;
+    while (a>=6){
+      System.out.println("[" + a + "]");
+      a-=5;
+    }
+    
+    
+    
+    
+    
+    
     
     //test/testtest
       
