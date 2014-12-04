@@ -27,7 +27,7 @@ public class RandomGames{ //class
         
         int dice1, dice2 = 0; //creates variables for the dice
         char gameChar = game.charAt(0); //gets the character from the string for the switch statement
-        int rNum = (int) (Math.random() *36 + 1); //generates a random number between 1 and 37 inclusive
+        int rNum = (int) (Math.random() *37 + 1); //generates a random number between 1 and 37 inclusive
         
         switch(gameChar){ //swtich statement to determine game based on input
             
